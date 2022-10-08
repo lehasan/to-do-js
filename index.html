@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <link rel="shortcut icon" href="favicon.ico"> -->
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.min.css?_v=20221008183557">
+	<title>To-Do-Js</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		
+
+		<!-- header -->
+		<header class="header">
+			<div class="header__container">
+				<h2 class="header__title">Add task</h2>
+				<button type="button" class="header__add">+</button>
+			</div>
+		</header>
+		<!-- /header -->
+
+		<main class="main">
+			<!-- progress -->
+			<section class="progress">
+				<div class="progress__container">
+					<div class="progress__wrapper">
+						<h2 class="progress__title">Your progress</h2>
+						<div class="progress__bar">
+							<span class="progress__count">0%</span>
+							<svg class="progress__svg">
+								<circle style="stroke-dashoffset: 320;" r="50" cx="50%" cy="50%" class="progress__svg-circle">
+								</circle>
+							</svg>
+						</div>
+						<span class="progress__tasks">0 tasks</span>
+					</div>
+				</div>
+			</section>
+			<!-- /progress -->
+
+			<!-- tasks -->
+			<section class="tasks">
+				<div class="tasks__container">
+					<h3 class="tasks__title">Today's tasks</h3>
+					<ul class="tasks__row"></ul>
+				</div>
+			</section>
+			<!-- /tasks -->
+		</main>
+
+		
+	</div>
+	<script src="js/app.min.js?_v=20221008183557"></script>
+</body>
+
+</html>
